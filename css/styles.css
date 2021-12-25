@@ -66,11 +66,11 @@ ul {
 }
 
 .hero .title {
-    color: var(--header-background-color);
+    color: var(--primary-background-color);
 }
 
 .button {
-    color: var(--header-background-color);
+    color: var(--primary-background-color);
     background-color: var(--focus-color);
 }
 
@@ -95,6 +95,6 @@ footer{
 }
 
 .address-link {
-    color: var(--header-background-color);
+    color: var(--primary-background-color);
     text-decoration: none;
 }
