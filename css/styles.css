@@ -98,3 +98,16 @@ footer{
     color: var(--primary-background-color);
     text-decoration: none;
 }
+
+/* filter button */
+
+.filter .button {
+    color: var(--footer-background-color);
+    background-color: var(--secondary-background-color);
+}
+
+.filter .button:hover,
+.filter .button:focus {
+    color: var(--primary-background-color);
+    background-color: var(--focus-color);
+}
