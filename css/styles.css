@@ -99,6 +99,10 @@ footer{
     text-decoration: none;
 }
 
+
+/* ----------------portfolio page---------------- */
+
+
 /* filter button */
 
 .filter .button {
@@ -111,3 +115,12 @@ footer{
     color: var(--primary-background-color);
     background-color: var(--focus-color);
 }
+
+/* portfolio content */
+
+.link {
+    text-decoration: none;
+    color: var(--primary-font-color);
+    
+}
+
