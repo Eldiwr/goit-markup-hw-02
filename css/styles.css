@@ -10,6 +10,12 @@
 body {
     background-color: var(--primary-background-color);
     color: var(--primary-font-color);
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 ul {
@@ -20,6 +26,13 @@ ul {
 
 .logo {
     color: var(--secondary-font-color);
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    
     text-decoration: none;
 }
 
@@ -67,25 +80,71 @@ ul {
 
 .hero .title {
     color: var(--primary-background-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .button {
     color: var(--primary-background-color);
     background-color: var(--focus-color);
+
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
 }
 
 /* maine content */
 
 .section-title {
-    color: var(--secondary-font-color)
+    color: var(--secondary-font-color);
+
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+
 }
 
 .list-title {
     color: var(--secondary-font-color);
+
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.1;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .section.comand {
     background-color: var(--secondary-background-color);
+}
+
+.section.comand .list-title {
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.position {
+
+font-weight: 400;
+font-size: 16px;
+line-height: 1.2;
+text-align: center;
+letter-spacing: 0.03em;
 }
 
 /* footer */
@@ -108,6 +167,13 @@ footer{
 .filter .button {
     color: var(--footer-background-color);
     background-color: var(--secondary-background-color);
+
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .filter .button:hover,
@@ -120,7 +186,22 @@ footer{
 
 .link {
     text-decoration: none;
-    color: var(--primary-font-color);
+    color: var(--primary-font-color);    
+}
+
+.link-title {
+    color: var(--secondary-font-color);
     
+    font-weight: 700;
+    font-size: 18px;
+    letter-spacing: 0.06em;
+}
+
+.title-description {
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.03em;
 }
 
